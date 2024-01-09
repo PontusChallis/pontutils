@@ -10,7 +10,7 @@
 #' df <- data.frame(a = c(1,2,3), b = c(NA, NA, NA), c = c(NA, 2, NA))
 #' remove_empty_columns(df)
 
-#' @importFrom dplyr select_if
+
 #' @export remove_empty_columns
 
 remove_empty_columns <- function(df){
